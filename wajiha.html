@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="overlay" id="overlay">
+        <h3>Searching now...</h3>
+    </div>
+    <div class="hero-bg">
+        <section class="top">
+            <header>
+                <a href="#">library.books</a>
+                <nav>
+                    <ul id='MenuItems'>
+                        <li><a href='#'><i class="fa-solid fa-house"></i>
+                            Home</a></li>
+                        <li><a href='about.html'>About us</a></li>
+                        <li><a href="catagories.html">Books
+                            <ul>
+                                <li>Programming</li>
+                                <li>Engeenring</li>
+                                <li>Discovery</li>
+                                <li>Refrences
+                                    <ul>books</ul>
+                                    <ul>notes</ul>
+                                </li>
+                            </ul>
+                        </a></li>
+                        <li><a href='login.html'>Login</a></li>
+                        <li><a href='contact.html'>contact us</a></li>
+                    </ul>
+                </nav>
+                <style>
+                    * {
+                        margin: 0;
+                        box-sizing: border-box;
+                        outline: none;
+                    }
+                    
+                    body {
+                        font-family: 'Montserrat', sans-serif;
+                        overflow-x: hidden;
+                        padding: 10px;
+                        padding-top: 0;
+                    }
+                    
+                    img {
+                        width: 100%;
+                    }
+                    
+                    .cards {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-wrap: wrap;
+                    }
+                    
+                    .card {
+                        position: relative;
+                        width: 408px;
+                        padding-bottom: 50px;
+                        background-color: #fff;
+                        box-shadow: 0 21px 35px rgb(0, 0, 0 / .10);
+                        border-radius: 6px;
+                        overflow: hidden;
+                    }
+                    
+                    .card .text {
+                        padding: 15px;
+                    }
+                    
+                    .card p {
+                        font-size: 16px;
+                        line-height: 30px;
+                        color: #00bfff;
+                    }
+                    
+                    .card h2 {
+                        color: #00bfff;
+                        font-size: 32px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .card .more-btn {
+                        width: 100px;
+                        height: 100px;
+                        background-color: #ffa600;
+                        border-radius: 50%;
+                        position: absolute;
+                        bottom: -60px;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                        text-align: center;
+                        line-height: 60px;
+                        color: #fff;
+                        cursor: pointer;
+                        z-index: 9;
+                        font-size: 20px;
+                        transition: all ease 0.5s;
+                    }
+                    
+                    .card .more-btn:hover {
+                        background-color: #f7f7f7;
+                        color: #ea7f04;
+                    }
+                    
+                    .more-text {
+                        position: absolute;
+                        bottom: -100%;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: #f5aa09;
+                        padding: 30px;
+                        overflow-y: auto;
+                        transition: all ease 2s;
+                    }
+                    
+                    .more-text::-webkit-scrollbar {
+                        width: 7px;
+                        background-color: #b3b3b3;
+                    }
+                    
+                    .more-text::-webkit-scrollbar-thumb {
+                        background-color: c76d06;
+                    }
+                    
+                    .more-text h2 {
+                        color: #fff;
+                    }
+                    
+                    .more-text p {
+                        color: #fff;
+                        font-size: 18px;
+                        line-height: 30px;
+                        font-weight: 500;
+                    }
+                    
+                    .more-text.active {
+                        bottom: 0;
+                    }
+                </style>
+
+                <head>
+
+                    <body>
+            </header>
+
+            <h1><span>The Soft</span> Educating Experience</h1>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam esse sint error vitae laborum ratione fuga minus maiores commodi. Natus.</p>
+
+            <div class="form-container">
+                <form action="">
+                    <div class="form-left">
+                        <label for="Book">Enter your Book:</label>
+                        <input type="text" name="Book" id="Book">
+                        <p>Example: "Coconut Programming"</p>
+                    </div>
+
+                    <input type="button" value="Find Book Now" id="cta-btn">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <section class="authentic">
+        <div class="right-col">
+            <h2>Authentic. Awesome.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, maiores reprehenderit explicabo ab ad illo eveniet enim velit, exercitationem et recusandae placeat? Maiores laboriosam libero dolore consectetur! Omnis, recusandae expedita!</p>
+        </div>
+        <img src="images/booksledder.webp" alt="Picture of books in a library">
+    </section>
+
+    <div class="wrapper">
+        <div class="cards">
+            <div class="card">
+                <div class="img">
+                    <img src="images/boywithbooks-photo-7777001.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h2>Molestia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet quos. Fugiat, est tenetur eveniet delectus possimus ad molestiae placeat?</p>
+                    <div class="more-btn">
+                        <i class="fa fa-plus" style="font-size: 35px;">+</i>
+                    </div>
+                </div>
+                <div class="more-text">
+                    <h2>Molestia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet quos. Fugiat, est tenetur eveniet delectus possimus ad molestiae placeat? Cupiditate iste necessitatibus quibusdam dolore! In assumenda officia minima corrupti.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati! Lorem ipsum dolor sit,
+                        amet consectetur adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="images/koreangirlwithbooks-photo-7777150.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h2>Molestia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet quos. Fugiat, est tenetur eveniet delectus possimus ad molestiae placeat?</p>
+                    <div class="more-btn">
+                        <i class="fa fa-plus" style="font-size: 35px;">+</i>
+                    </div>
+                </div>
+                <div class="more-text">
+                    <h2>Molestia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet quos. Fugiat, est tenetur eveniet delectus possimus ad molestiae placeat? Cupiditate iste necessitatibus quibusdam dolore! In assumenda officia minima corrupti.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati! Lorem ipsum dolor
+                        sit, amet consectetur adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati! Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Laudantium, amet quos. Fugiat, est tenetur eveniet delectus possimus ad molestiae placeat? Cupiditate iste necessitatibus quibusdam dolore! In assumenda officia minima corrupti.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati! Lorem ipsum dolor sit,
+                        amet consectetur adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="images/boywithbooks-photo-7777001.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h2>Molestia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet quos. Fugiat, est tenetur eveniet delectus possimus ad molestiae placeat?</p>
+                    <div class="more-btn">
+                        <i class="fa fa-plus" style="font-size: 35px;">+</i>
+                    </div>
+                </div>
+                <div class="more-text">
+                    <h2>Molestia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet quos. Fugiat, est tenetur eveniet delectus possimus ad molestiae placeat? Cupiditate iste necessitatibus quibusdam dolore! In assumenda officia minima corrupti.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque quasi sed quia harum nisi sint, laboriosam delectus magnam odio dolore iusto in possimus corrupti sequi earum optio exercitationem obcaecati! Lorem ipsum dolor sit,
+                        amet consectetur adipisicing elit. Consequuntur iure magnam ipsum delectus neque nam numquam eius possimus labore similique distinctio atque, unde assumenda iste incidunt accusamus tenetur architecto at.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        let btn = document.getElementById('cta-btn');
+        let overlay = document.getElementById('overlay');
+
+
+
+        btn.addEventListener('click', () => {
+            overlay.style.display = 'grid';
+            overlay.classList.add('animate-overlay')
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".more-btn").on('click', function() {
+                $(this).parent().parent().find(".more-text").toggleClass("active");
+            });
+        });
+    </script>
+    </body>
+
+</html>
